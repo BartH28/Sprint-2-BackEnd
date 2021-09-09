@@ -20,7 +20,7 @@ namespace Senai.Rental.WebApi.Controllers
         {
             _aluguelRepository = new AluguelRepository();
         }
-
+        
         [HttpGet("ListaAluguel")]
         public IActionResult Get()
         {
